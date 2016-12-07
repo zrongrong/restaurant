@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contact</title>
+	<!--手机设置-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">	
+	<!-- IE优化 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 引入css文件 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+	<!-- 判断，如果是IE9以下，引入兼容h5标签的js文件，注意空格的位置 -->	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5shiv.min.js"></script>
+	<script type="text/javascript" src="js/respond.min.js"></script>
+	<![end if] -->
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+
+</head>
+<body>	
+	<!-- banner开始 -->
+	<div class="banner">
+		<div class="header-top">
+			<div class="container">
+				<div class="indicat">
+					<span><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>大连市高新园区</span>
+				</div>
+				<div class="detail">
+					<ul>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>0411-88888888</li>
+						<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Mon-Sun 8:00 am to 23:00 pm </li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="navigation navi">
+				<div class="logo">
+					<h1><a href="index.html">故事餐厅</a></h1>
+				</div>
+				<div class="navigation-right">
+					<span class="menu"><img src="images/menu.png" alt=""></span>
+					<nav class="link-effect-3" id="link-effect-3">
+						<ul class="nav1 nav nav-wil">
+							<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+							<li><a data-hover="About" href="about.html">About</a></li>
+							<li><a data-hover="Services" href="service.html" >Services</a></li>
+							<li><a data-hover="Gallery" href="gallery.html">Gallery</a></li>							
+							<li><a data-hover="Contact" href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+					<script>
+					   	$( "span.menu" ).click(function() {
+							$( "ul.nav1" ).slideToggle( 300, function() {
+								// 动画效果
+							});
+						});
+					</script>								
+				</div>
+				<div class="clearfix"></div>
+			</div>				
+		</div>
+	</div>
+	<!-- banner结束 -->
+	<!-- 内容区开始 -->
+	<div class="content">
+		<div class="contact-w3l">
+			<div class="container">
+				<h2 class="tittle">联系我们</h2>
+				<div class="contact-grids">
+					<div class="contact-grid">
+							<h4>你的信息</h4>							
+							<form action="#" method="post">
+								<label>姓名</label>
+								<input type="text" name="Name" placeholder="Your name" required="">
+								<div class="row">
+									<div class="col-md-6 row-grid">
+									<label>邮箱</label>
+									<input type="text" name="Email" placeholder="Email address" required="">
+									</div>
+										<div class="col-md-6 row-grid">
+										<label>电话</label>
+									<input type="text" name="Phone" placeholder="Phone number" required="">
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<label>主题</label>
+								<input type="text" name="Subject" placeholder="Subject" required="">
+								<div class="row1">
+								<label>留言</label>
+								<textarea placeholder="Message" name="Message"></textarea>
+								</div>
+								<input type="submit" value="发送">
+							</form>
+						</div>
+				</div>
+				<div class="contact-grids" id="bdmap">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 内容区结束 -->
+	<!-- 底部内容开始 -->
+	<div class="footer-w3l">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid">
+					<h4>关于我们</h4>
+					<ul>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>大连市高新园区</li>
+						<li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>0411-88888888</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="javascript:;"> zrr@mail.com</a></li>
+						<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i>Mon-Sun 08:00 am to 23:00 pm</li>
+					</ul>
+					<div class="social-icon">
+						<a href="#"><i class="icon"></i></a>
+						<a href="#"><i class="icon1"></i></a>
+						<a href="#"><i class="icon2"></i></a>
+						<a href="#"><i class="icon3"></i></a>
+					</div>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h4>优秀服务</h4>
+					<ul>
+						<li>团队合作</li>
+						<li>尽善尽美</li>
+						<li>优质服务</li>
+						<li>精益求精</li>
+						<li>团队合作</li>
+						<li>尽善尽美</li>
+						<li>优质服务</li>
+						<li>精益求精</li>								
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h4>我们的特色</h4>
+					<ul>
+						<li>甜食</li>
+						<li>沙拉</li>
+						<li>炸鸡</li>
+						<li>披萨</li>
+						<li>汉堡</li>
+						<li>海鲜</li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid">
+					<h4>会员区</h4>
+					<form action="#" method="post">
+						<p>Name</p>
+						<input type="text" name="Name" placeholder="" required="">
+						<p>password</p>
+						<input type="password" name="Password" placeholder="" required="">
+						<input type="submit" value="LOGIN">
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>		
+	</div>
+	<!-- 底部内容结束 -->
+	<!-- 版权所有开始 -->
+	<div class="copy-section">
+		<div class="container">
+			<div class="footer-top">
+				<p>&copy; 2016 故事.版权所有-me </p>
+			</div>
+		</div>		
+	</div>
+	<!-- 版权所有结束 -->
+
+	
+
+	<!-- 引入百度地图api类库 -->
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=iBUgAroTOcTe61Z982tEp36i"></script>
+	<script type="text/javascript">
+		window.onload = function() {			
+
+			//调用百度地图API
+			var map = new BMap.Map('bdmap');//地图对象
+			// 创建点坐标  
+			var point = new BMap.Point(121.5113442053978, 38.860614891153396);
+
+			// 初始化地图，设置中心点坐标和地图级别  
+			map.centerAndZoom(point, 15);
+
+			var marker = new BMap.Marker(point);//创建标记
+			map.addOverlay(marker);//给地图加标记
+
+			// 设置地图显示的城市 此项是必须设
+			map.setCurrentCity("大连");    
+			// 添加地图类型控件
+			map.addControl(new BMap.MapTypeControl());  
+			// 地图平移缩放控件
+			map.addControl(new BMap.NavigationControl());  
+			// 比例尺控件  
+			map.addControl(new BMap.ScaleControl());  
+			// 缩略地图控件
+			map.addControl(new BMap.OverviewMapControl());
+			// 开启鼠标滚轮缩放
+			map.enableScrollWheelZoom(true); 
+
+		}
+	</script>
+	
+</body>
+</html>
